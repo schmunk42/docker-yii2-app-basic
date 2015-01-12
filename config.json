@@ -1,0 +1,9 @@
+{
+    "config": {
+        "preferred-install": "dist",
+        "github-protocols": ["https","http"],
+        "github-oauth": {
+            "github.com": "aa9a906cf406370b509bbce3a78829202b41b8e6"
+        }
+    }
+}
