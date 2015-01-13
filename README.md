@@ -1,5 +1,8 @@
 # Docker Container for Yii2 Basic App Template
 
+**If you would like to use a Yii 2.0 Framework application with a Docker-optimized setup based on environment variables, you
+should have a look at [Phundament 4](http://phundament.com).**
+
 ## Usage
 
 Get it!
@@ -27,6 +30,4 @@ Mount application as volume
         -v `pwd`:/app \
         --name myapp \
         schmunk42/yii2-app-basic
-        
-**If you would like to use a Yii 2.0 Framework application with a Docker-optimized setup based on environment variables, you
-should have a look at [Phundament 4](http://phundament.com).**
+
