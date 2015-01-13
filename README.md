@@ -2,6 +2,10 @@
 
 ## Usage
 
+Get it!
+
+    docker pull schmunk42/yii2-app-basic
+
 Run the container
 
     docker run -d -p 8888:80 schmunk42/yii2-basic-app
