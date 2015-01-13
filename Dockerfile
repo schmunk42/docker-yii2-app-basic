@@ -54,6 +54,12 @@ RUN echo "daemon off;" >> /etc/nginx/nginx.conf && \
     sed -i.bak 's/log_errors_max_len = 1024/log_errors_max_len = 65536/' /etc/php5/fpm/php.ini
 # forward request and error logs to docker log collector
 RUN ln -sf /dev/stderr /var/log/nginx/error.log
+# /!\ DEVELOPMENT ONLY SETTINGS /!\
+# Running PHP-FPM as root, required for volumes mounted from host
+RUN sed -i.bak 's/user = www-data/user = root/' /etc/php5/fpm/pool.d/www.conf && \
+    sed -i.bak 's/group = www-data/group = root/' /etc/php5/fpm/pool.d/www.conf && \
+    sed -i.bak 's/--fpm-config /-R --fpm-config /' /etc/init.d/php5-fpm
+# /!\ DEVELOPMENT ONLY SETTINGS /!\
 
 ADD run.sh /root/run.sh
 RUN chmod 700 /root/run.sh
