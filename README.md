@@ -1,6 +1,10 @@
-# Docker Container for Yii2 Basic App Template
+# Docker Container for Yii 2.0
 
-Note! This docker container was created as a very basic Yii2 example. **If you would like to use a Yii 2.0 Framework application with a Docker-optimized setup based on environment variables, you
+*Basic App Template*
+
+> Note! This docker container was created as a very basic Yii2 example. 
+
+**If you would like to use a Yii 2.0 Framework application with a Docker-optimized setup based on environment variables, you
 should have a look at [Phundament 4](http://phundament.com).**
 
 ## Usage
