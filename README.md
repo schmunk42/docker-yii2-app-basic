@@ -1,6 +1,6 @@
 # Docker Container for Yii 2.0
 
-*Basic App Template*
+**Basic App Template**
 
 > Note! This docker container was created as a very basic Yii2 example. 
 > 
@@ -44,3 +44,10 @@ Access the application under the URLs mentioned above, you can directly edit the
     docker exec myapp ./yii
 
 directly off the running container.
+
+Links
+-----
+
+- [yii2-app-basic](https://github.com/yiisoft/yii2-app-basic)
+- [Phundament 4](http://phundament.com)
+- [diemeisterei GmbH](http://diemeisterei.de)
