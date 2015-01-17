@@ -9,7 +9,7 @@ should have a look at [Phundament 4](http://phundament.com).**
 
 ## Usage
 
-Get it!
+Get it from [Docker Hub](https://registry.hub.docker.com/u/schmunk42/yii2-app-basic/)!
 
     docker pull schmunk42/yii2-app-basic
 
