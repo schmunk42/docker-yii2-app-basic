@@ -1,5 +1,12 @@
 # Docker Container for Yii 2.0
 
+---
+
+:bangbang: **We've released [`docker-yii2-app`](https://github.com/dmstr/docker-yii2-app) an updated version of a minimalistic Yii 2.0 application template.**
+
+---
+
+
 **Basic App Template**
 
 > Note! This docker container was created as a very basic Yii2 example. 
