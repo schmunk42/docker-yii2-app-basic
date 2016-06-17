@@ -36,8 +36,8 @@ WORKDIR /app
 ENV COMPOSER_HOME /root/.composer
 ENV PATH /root/.composer/vendor/bin:$PATH
 ADD config.json /root/.composer/config.json
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer --version=1.0.0-alpha9 && \
-    /usr/local/bin/composer global require "fxp/composer-asset-plugin:1.0.0-beta4"
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \
+    /usr/local/bin/composer global require "fxp/composer-asset-plugin"
 
 # Install application template and packages
 # Yii 2.0 application and its extensions can be used directly from the image or serve as local cache
