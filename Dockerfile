@@ -25,6 +25,7 @@ RUN apt-get update && \
         php5-intl \
         php5-mcrypt \
         php5-mysql \
+        php5-pgsql \
         php5-xsl && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
