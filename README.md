@@ -12,7 +12,7 @@
 > Note! This docker container was created as a very basic Yii2 example. 
 > 
 > **If you would like to use a Yii 2.0 Framework application with a Docker-optimized setup based on environment variables, you
-should have a look at [Phundament 4](http://phundament.com).**
+should have a look at [phd5](https://github.com/dmstr/phd5-app).**
 
 ## Usage
 
